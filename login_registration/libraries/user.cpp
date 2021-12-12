@@ -8,4 +8,7 @@ User::User(const std::string username, const std::string password)
 {
 }
 
+std::string User::GetUserName() { return username_; }
+std::string User::GetPassword() { return password_; }
+
 } // namespace credentials
