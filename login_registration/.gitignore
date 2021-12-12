@@ -1,0 +1,4 @@
+bazel-bin
+bazel-login_registration
+bazel-out
+bazel-testlogs
