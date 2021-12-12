@@ -16,3 +16,9 @@ user_test
 ```bash
 bazel test --test_output=all //libraries/test:user_test
 ```
+
+## format BUILD files
+
+```bash
+bazel run //:buildifier
+```
