@@ -9,3 +9,10 @@ run
 ```bash
 bazel run //main:login-registration
 ```
+
+## Tests
+
+user_test
+```bash
+bazel test --test_output=all //libraries/test:user_test
+```
