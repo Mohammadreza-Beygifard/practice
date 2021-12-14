@@ -8,9 +8,10 @@ namespace credentials
 class User
 {
 public:
-  // TODO add default constructor
   explicit User(const std::string username, const std::string password);
-  // TODO add setters
+  explicit User();
+  void SetUserName(std::string const username);
+  void SetPassword(std::string const password);
   std::string GetUserName();
   std::string GetPassword();
 

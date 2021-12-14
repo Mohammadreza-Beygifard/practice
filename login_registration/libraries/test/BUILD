@@ -4,6 +4,7 @@ cc_test(
         "user_test.cpp",
     ],
     deps = [
+        "//libraries:cred_lib",
         "@com_google_googletest//:gtest_main",
     ],
 )

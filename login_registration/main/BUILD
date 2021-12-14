@@ -5,5 +5,6 @@ cc_binary(
     srcs = ["main.cpp"],
     deps = [
         "//libraries:cred_lib",
+        "//services:reg_service",
     ],
 )
